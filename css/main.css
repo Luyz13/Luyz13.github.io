@@ -1,0 +1,139 @@
+/*.container
+{
+  background: peru;
+  padding: 5px;
+}
+.row
+{
+  background:  lime;
+  padding: 5px;
+}
+.col
+{
+  background: skyblue;
+  padding: 5px;
+  border: 1px solid white;
+}
+.row div
+{
+  background: skyblue;
+  padding: 5px;
+  border: 1px solid white;
+}*/
+body
+{
+  background: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.list-group-item
+{
+  margin-bottom: 5px;
+  background: rgba(10, 206, 206, .7);
+  color: white;
+  border: none;
+}
+
+.list-group-item:first-of-type,
+.list-group-item:last-of-type
+{
+  border-radius: 0px;
+}
+.list-group-item.active
+{
+    background: rgba(12,12,76,.7);
+}
+.list-group-item:hover
+{
+  background: rgba(255,255,255,.7);
+  cursor: pointer;
+}
+.card
+{
+  background: rgba(255,255,255,.7);
+}
+.card img
+{
+  width: 50%;
+  margin: 50px auto 20px auto;
+  border-radius: 50%;
+}
+.card .card-title
+{
+  color: #333;
+  text-align: center;
+}
+.card .card-title span
+{
+  color: rgba(10, 206, 206, .7);
+}
+.card  h6
+{
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+}
+.card .btn-primary
+{
+  background: rgba(10, 206, 206, .8);
+  border: none;
+  border-radius: 0px;
+}
+.card .btn-primary:hover
+{
+  background: #004085;
+  color: #333;
+}
+.social-network-wrapper
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.social-network-wrapper .social-icon
+{
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.social-network-wrapper .social-icon:not(:first-of-type)
+{
+  margin-left: 5px;
+
+}
+.social-network-wrapper .social-icon.facebook
+{
+    background-image: url("../images/facebook-icon.png");
+}
+.social-network-wrapper .social-icon.instagram
+{
+    background-image: url("../images/instagram-icon.png");
+}
+.social-network-wrapper .social-icon.link
+{
+    background-image: url("../images/link.png");
+}
+.social-network-wrapper .social-icon.twitter
+{
+    background-image: url("../images/twitter-icon.png");
+}
+.social-network-wrapper .social-icon.youtube
+{
+    background-image: url("../images/youtube.png");
+}
+/*.col:nth-of-type(3)*/
+.resume-wrapper
+{
+    background: rgba(255,255,255,.7);
+    border-radius: 5px;
+    height: fit-content;
+    padding: 10px;
+}
+.contact-wrapper
+{
+  display: flex;
+  justify-content: center;
+  
+}
